@@ -5,7 +5,7 @@
  * The list may be for a particular category,
  * or the result of a particular query.
  */
-require "/usr/local/Smarty/libs/Smarty.class.php";
+require_once "Smarty.class.php";
 require "includes/defs.php";
 
 $id = $_GET['id'];           # category id

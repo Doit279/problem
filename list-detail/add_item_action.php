@@ -2,7 +2,7 @@
 /*
  * Adds new item from form data.
  */
-require "/usr/local/Smarty/libs/Smarty.class.php";
+require_once "Smarty.class.php";
 require "includes/defs.php";
 
 # Get form data
