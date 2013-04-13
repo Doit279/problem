@@ -1,0 +1,25 @@
+Partial solution to 2010 Assignment 1.
+
+Intended to demonstrate core requirements only.
+
+Requires index.php and category_list.php to be aliases.
+
+Required URL Is ".../solution1/" or ".../solution1/category_list.php".
+
+Provides minimal but adequate documentation.
+
+Uses tables categories and items.
+
+Uses fields item summary and details instead of item name, description,
+vendor and price.  But it does handle categories correctly.
+
+Performs only minimal user input validation.
+
+Requires users to re-enter form data when initial form data is not valid,
+because the best way to avoid this is to use session variables which are
+not required for this assignment.
+
+Does not check for errors, e.g., with invalid ids, hardly at all.
+
+Rodney Topor
+4 February 2010

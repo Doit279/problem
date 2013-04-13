@@ -5,11 +5,10 @@
  * The list may be for a particular category,
  * or the result of a particular query.
  */
-require_once "Smarty.class.php";
+require '/usr/local/Smarty/libs/Smarty.class.php';
 require "includes/defs.php";
 
 $id = $_GET['id'];           # category id
-$summary = $_GET['summary']; # query for summary
 
 $smarty = new Smarty;
 

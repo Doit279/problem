@@ -3,7 +3,7 @@
  * Displays a list of category names, 
  * each name a link to the item list for that category.
  */
-require_once "Smarty.class.php";
+require '/usr/local/Smarty/libs/Smarty.class.php';
 require "includes/defs.php";
 
 $categories = getCategoryList();

@@ -2,7 +2,7 @@
 /*
  * Deletes item with given id.
  */
-require_once "Smarty.class.php";
+require '/usr/local/Smarty/libs/Smarty.class.php';
 require "includes/defs.php";
 
 $id = $_GET['id'];

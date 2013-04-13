@@ -2,7 +2,6 @@
 /*
  * Adds new item from form data.
  */
-require_once "Smarty.class.php";
 require "includes/defs.php";
 
 # Get form data
@@ -18,7 +17,7 @@ if (empty($summary)) {
 }
 
 # Add item with form data
-$id = addItem($summary,$details,$category);
+$id = add_item($summary,$details);
 
 header("Location: item_detail.php?id=$id"); 
 exit;
